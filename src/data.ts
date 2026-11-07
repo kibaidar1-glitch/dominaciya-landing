@@ -1,4 +1,4 @@
-export const downloadPath = '/Dominacia-print-and-play.pdf';
+export const downloadPath = '#print-download-unavailable';
 export const communityUrl = 'https://t.me/+PE05hAAXgxpkYzli';
 export const githubUrl = 'https://github.com/kibaidar1-glitch/Dominacia';
 

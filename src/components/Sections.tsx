@@ -106,10 +106,10 @@ export function PrintAndPlaySection() {
         <p className="eyebrow">Бесплатное издание · Print &amp; Play</p>
         <h2 id="print-title">Соберите игру.<br /><em>Начните историю.</em></h2>
         <p>В PDF собраны карты народов, принципы, способности, жетоны Влияния и правила игры.</p>
-        <a className="button button--light" href={downloadPath} download>
-          Скачать игру бесплатно <span aria-hidden="true">↓</span>
+        <a className="button button--light" href={downloadPath} aria-disabled="true">
+          Скачать Print & Play <span aria-hidden="true">↓</span>
         </a>
-        <span className="file-note">PDF · 30 страниц · около 166 МБ</span>
+        <span className="file-note">Ссылка на скачивание будет добавлена</span>
       </div>
     </section>
   );
@@ -140,7 +140,7 @@ export function SiteFooter() {
       <a className="wordmark wordmark--footer" href="#top"><span>ДОМИНАЦИЯ</span></a>
       <span>Создай новый мир. Возвысь свой народ.</span>
       <div className="footer-links">
-        <a href={downloadPath} download>Скачать игру</a>
+        <a href="#print-download-unavailable" aria-disabled="true">Скачать игру</a>
         <a className="social-link" href={communityUrl} target="_blank" rel="noreferrer" aria-label="Обсуждение в Telegram" title="Telegram">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 3.2 18.3 20c-.2 1.2-.9 1.5-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.3L5.7 13.5.8 12c-1.1-.3-1.1-1.1.2-1.6L20.2 3c.9-.3 1.7.2 1.4.2Z" /></svg>
           <span className="sr-only">Telegram</span>

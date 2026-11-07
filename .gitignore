@@ -2,3 +2,7 @@ node_modules/
 dist/
 .pnpm-store/
 *.tsbuildinfo
+
+dist.zip
+public/Dominacia-print-and-play.pdf
+
