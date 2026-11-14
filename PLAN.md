@@ -34,7 +34,9 @@
 - [x] Run the TypeScript check.
 - [x] Run the production build.
 - [x] Check the production output and local asset routes.
-- [ ] Configure hosting and final download URLs for the chosen host (host/domain not specified; current PDF is served locally).
+- [x] Configure the published Netlify URL and connect download CTAs to the verified v1.0.0 game release.
+- [x] Add a dedicated game page with verified edition, preparation and component information.
+- [ ] Publish the game listing on Russian distribution platforms; account access, platform choice and listing approval are still required.
 - [x] Document generic static-host deployment steps and file-size requirements.
 
 ## Definition of done

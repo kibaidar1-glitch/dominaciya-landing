@@ -1,4 +1,5 @@
-export const downloadPath = '#print-download-unavailable';
+export const downloadPath = 'https://github.com/kibaidar1-glitch/Dominacia/releases/download/v1.0.0/Dominacia-print-and-play.PDF';
+export const siteUrl = 'https://dominacia.netlify.app';
 export const communityUrl = 'https://t.me/+PE05hAAXgxpkYzli';
 export const githubUrl = 'https://github.com/kibaidar1-glitch/Dominacia';
 

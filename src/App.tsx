@@ -1,8 +1,11 @@
 import { SiteHeader } from './components/SiteHeader';
 import { Hero } from './components/Hero';
 import { AboutSection, CardGallery, ComponentsSection, FAQSection, HowToPlaySection, PeoplesSection, PrintAndPlaySection, SiteFooter } from './components/Sections';
+import GamePage from './GamePage';
 
 export default function App() {
+  if (window.location.pathname.replace(/\/$/, '') === '/game') return <GamePage />;
+
   useEffect(() => {
     const sections = document.querySelectorAll<HTMLElement>('[data-reveal]');
     const observer = new IntersectionObserver(

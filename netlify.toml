@@ -2,3 +2,8 @@
   base = "."
   command = "pnpm run build"
   publish = "dist"
+
+[[redirects]]
+  from = "/game"
+  to = "/index.html"
+  status = 200

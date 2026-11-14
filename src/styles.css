@@ -209,6 +209,20 @@ h2 { margin-bottom: 0; font-size: clamp(42px, 5.15vw, 75px); line-height: .99; }
   .site-footer > div { gap: 13px; font-size: 9px; }
 }
 
+.game-page { width: min(100% - 48px, 1120px); min-height: 100vh; margin: 0 auto; }
+.game-page__header { display: flex; min-height: 76px; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.game-page__hero { max-width: 800px; padding: clamp(64px, 9vw, 124px) 0 76px; }
+.game-page__hero h1 { max-width: 780px; }
+.game-page__hero .hero__lead { max-width: 600px; }
+.game-page__hero .game-facts { margin-top: 42px; }
+.game-page__details { max-width: 740px; padding: 48px 0 80px; border-top: 1px solid var(--line); }
+.game-page__details h2 { margin-bottom: 28px; font-size: clamp(34px, 4vw, 52px); }
+.game-page__details ol { display: grid; gap: 14px; padding-left: 22px; color: var(--muted); line-height: 1.7; }
+.game-page__details li { padding-left: 8px; }
+.game-page__details p { margin-top: 30px; color: var(--muted); line-height: 1.7; }
+.game-page__footer { display: flex; flex-wrap: wrap; gap: 22px; padding: 22px 0 40px; border-top: 1px solid var(--line); font-size: 12px; }
+@media (max-width: 680px) { .game-page { width: min(100% - 40px, 1120px); } .game-page__hero { padding-top: 68px; } .game-page__footer { flex-direction: column; gap: 14px; } }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }

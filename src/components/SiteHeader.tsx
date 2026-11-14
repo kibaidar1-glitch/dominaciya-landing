@@ -1,3 +1,4 @@
+import { downloadPath } from '../data';
 const links = [
   ['Об игре', '#about'],
   ['Как играть', '#how-to-play'],
@@ -21,7 +22,7 @@ export function SiteHeader() {
         <a className="header-social" href="https://github.com/kibaidar1-glitch/Dominacia" target="_blank" rel="noreferrer" aria-label="Исходные материалы на GitHub" title="GitHub">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.4a9.8 9.8 0 0 0-3.1 19.1c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.3-2.2-.3-4.6-1.1-4.6-5A3.9 3.9 0 0 1 7 8.8c-.1-.3-.5-1.3.1-2.7 0 0 .8-.2 2.7 1A9.2 9.2 0 0 1 12 6.8c.8 0 1.5.1 2.2.3 1.9-1.3 2.7-1 2.7-1 .6 1.4.2 2.4.1 2.7a3.9 3.9 0 0 1 1.1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.7V21c0 .3.2.6.7.5A9.8 9.8 0 0 0 12 2.4Z" /></svg>
         </a>
-        <a className="header-download" href="#print-and-play">Скачать игру <span aria-hidden="true">↗</span></a>
+        <a className="header-download" href={downloadPath}>Скачать игру <span aria-hidden="true">↗</span></a>
       </div>
     </header>
   );

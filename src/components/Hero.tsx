@@ -10,7 +10,7 @@ export function Hero() {
           <h1 id="hero-title">Создай новый мир.<br /><em>Возвысь свой народ.</em></h1>
           <p className="hero__lead">Изменяйте мир. Переигрывайте соперников. Создавайте комбинации принципов и боритесь за доминирование.</p>
           <div className="hero__actions">
-            <a className="button button--primary" href={downloadPath} download>
+            <a className="button button--primary" href={downloadPath}>
               Скачать Print &amp; Play <span aria-hidden="true">↓</span>
             </a>
             <a className="text-link" href="#how-to-play">Как играть <span aria-hidden="true">↘</span></a>
